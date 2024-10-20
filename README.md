@@ -1,32 +1,37 @@
-A general example as to how the process works: To memorize an arbitrary list of numbers like 273819748294
-I would create a program that would split the list into pairs of threes
+  Visual Imagery and Memorization Project:
+
+Memory champions have been memorizing hundreds, even thousands of digits of pi, but how do they do it and how can we use this to help us in school?
+
+  Tutorial Section:
+
+The code I generated follows the strategy that the Memory Champions use of splitting pi into triplets, and then creating mental images in their mind that make the numbers stick.
+
+To memorize an arbitrary list of numbers like 273819748294
+The code starts by splitting the numbers into triplets
+
 273 819 748 294
 
-Then, either the program will use the default key that I created, or you can make your own
+Then I provide a key to translate the numbers:
 1 = i, 2 = t, 3 = e, 4 = r, 5 = s, 6 = b, 7 = n, 8 = o, 9 = p
-
-Then I will call a model that will generate acronyms for each translated triplet from a dictionary of adverbs, adjectives and nouns
 
 tne, oip, nro, tpr
 
-The program would find an adverb for the first letter of each triplet
+The program then finds an adjective for the first letter, a noun for the second letter, and another noun for the third letter
 
-Truthfully, ordinarily, newly, tenderly
+Now we have 4 different acronyms that we can create a scene from in order to remember our arbitrary list of numbers
+1. Talented ninja elephant
+2. Ordinary ice pencil
+3. New ring oatmeal
+4. Talented party rats
 
-Then it would find an adjective for the second letter of each triplet
+Then I call DeepAI to generate ai images for each acronym to help you visualize the acronyms better and solidfy that mental image
 
-Natural, ideal, rare, painful
+Next I prompt you to re-input the acronyms and it checks if they are correct. After the acronyms are correct, you decode them to get the digits.
 
-Then it would find a noun for the third letter of each triplet
-Eggs, pencils, oatmeal, rats
+  Application:
 
-Now we have 4 different visual images that we can create a scene from in order to remember our arbitrary list of numbers
-1. Truthfully natural eggs
-2. Ordinarily ideal pencils
-3. Newly rare oatmeal
-4. Tenderly painful rats
+In the application tab, you can create your own key, which the code then compiles into a list, splits into triplets, generates acronyms and then generates images from.
 
-Then I would call an AI image generator to generate images for each one.
-You will be prompted with a timer to memorize each acronym before it disappears and you are only left with the images and the key. Then you will see that it is a lot easier to recall the arbitrary list of numbers after using visual imagery. This is to resemble the techniques used by professional memory champions. 
+then it prompts you to input your acronyms, and then decode your acronyms to your elements that you put in.
 
-But the usefulness of visual imagery when aiding with memory goes beyond just arbitrary numbers. It can help with math equations and biology and so much more.
+
